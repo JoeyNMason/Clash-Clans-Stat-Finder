@@ -2,7 +2,7 @@
 
 /* Global Styles */
 body {
-    font-family: 'Roboto' ,'Arial', sans-serif;
+    font-family: 'Roboto' ,Arial, sans-serif;
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
@@ -11,6 +11,7 @@ body {
     letter-spacing: 0.8px;
 }
 
+/* HEADER */
 header {
     background-color: #282c34;
     color: #ffffff;
@@ -52,7 +53,9 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+/*  */
 
+/* MAIN */
 main {
     padding: 40px;
     display: flex;
@@ -60,14 +63,18 @@ main {
     align-items: center;
     min-height: calc(100vh - 160px); /* Adjust based on header/footer height */
 }
+/*  */
 
+/* THE CONTAINER BOX */
 .container {
     background: white;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 40px;
     max-width: 600px;
     width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .title {
@@ -92,12 +99,13 @@ main {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
     margin-bottom: 20px;
+
 }
 
 input[type="text"]:focus {
@@ -110,7 +118,7 @@ button {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -118,6 +126,7 @@ button {
 
 button:hover {
     background-color: #0056b3;
+    color: white;
 }
 
 footer {
