@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clash of Players</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="styles-joseph.css">
+    </head>
+    <body>
+
+
+        <header>
+            <h1><i class="bi bi-joystick"></i>Clash of Players</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <div class="container">
+                <div class="title">
+                    <h2>Search Player Tag</h2>
+                    <p>Unique Player tags start with a '#'. Example: '#12AB3C4D5'.</p>
+                </div>
+                <form class="player-input">
+                    <input id="tag-input" type="text" placeholder="#12AB3C4D5" aria-label="Player Tag"/>
+                    <button id="search-btn" aria-label="Search Player" type="submit">Search</button>
+                </form>
+            </div>
+        </main>
+
+
+        <footer>
+            <p>&copy; <span id="year"></span> Clash of Players</p>
+        </footer>
+
+
+        <script src="script.js" async defer></script>
+        <script src="dynamicDate.js" async defer></script>
+    </body>
+</html>
